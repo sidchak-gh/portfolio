@@ -79,10 +79,12 @@ export default function ProjectCard({
               </div>
               <Link
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-2 text-sm font-medium backdrop-blur transition-colors hover:bg-white/20 self-start sm:self-auto"
-                aria-label={`Open case study: ${title}`}
+                aria-label={`Open live link: ${title}`}
               >
-                Case study
+                Live link
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
